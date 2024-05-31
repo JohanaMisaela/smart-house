@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.parquet {
+  background-image: url("../../public/bg/bg.jpeg");
+}
+.tapis {
+  background-image: url("../../public/bg/tapis.jpg");
+}
+.lit {
+  background-image: url("../../public/bg/lit.png");
+  background-size: cover;
+}

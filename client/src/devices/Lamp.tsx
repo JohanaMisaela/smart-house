@@ -34,14 +34,28 @@ const Lamp: React.FC<LampProps> = ({ brightness }) => {
   return (
     <div
       style={{
-        width: "200px",
-        height: "20px",
+        width: 40,
+        height: 40,
         borderBottomLeftRadius: 20,
         borderBottomRightRadius: 20,
         backgroundColor: getLampColor(brightness),
-        borderRadius: "10px",
+        borderRadius: "100%",
+        border: "1px solid black",
       }}
-    ></div>
+      className="flex items-center justify-center"
+    >
+      <div
+        style={{
+          width: 20,
+          height: 20,
+          borderBottomLeftRadius: 20,
+          borderBottomRightRadius: 20,
+          backgroundColor: getLampColor(brightness),
+          border: "1px solid black",
+          borderRadius: "100%",
+        }}
+      ></div>
+    </div>
   );
 };
 
