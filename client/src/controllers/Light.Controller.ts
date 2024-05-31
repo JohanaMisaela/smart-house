@@ -1,4 +1,3 @@
-// src/controllers/LightController.ts
 class LightController {
   private static instance: LightController;
   private brightness: number;
