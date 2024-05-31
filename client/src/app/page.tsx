@@ -15,13 +15,13 @@ const Page = () => {
           <div className="w-full h-[35%] bg-red-300"></div>
           <div className="w-full h-[15%] bg-red-300"></div>
           <div className="w-full h-[50%] flex">
-            <div className="w-[60%] h-full">
-              <Door isOpen={isOpen} />
-            </div>
+            <div className="w-[60%] h-full"></div>
             <div className="w-[40%] h-full  ">
               <div className="w-full h-[5%] flex">
                 <div className="w-[20%] h-full bg-white"></div>
-                <div className="w-[30%] h-full "></div>
+                <div className="w-[30%] h-full ">
+                  <Door isOpen={isOpen} />
+                </div>
                 <div className="w-[50%] h-full bg-white"></div>
               </div>
               <div className="w-full h-[90%] parquet flex">
