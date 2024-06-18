@@ -5,6 +5,7 @@ import SetBrightnessCommand from "@/commands/SetBrightnessCommand";
 import { useLightContext } from "@/context/LightContext";
 import { useDoorContext } from "@/context/DoorContext";
 import ToggleDoorCommand from "@/commands/ToggleDoorCommand";
+import ButtonControl from "@/controllers/HomeDoor.Controller";
 
 const Control = () => {
   const { brightness, setBrightness } = useLightContext();
@@ -44,6 +45,10 @@ const Control = () => {
       <button onClick={handleToggleDoor}>
         {isOpen ? "Fermer la Porte" : "Ouvrir la Porte"}
       </button>
+
+      <div><p>C'est ici pour ouvrir le porte General</p>
+        <ButtonControl/>
+      </div>
     </>
   );
 };
