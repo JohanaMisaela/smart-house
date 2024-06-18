@@ -5,7 +5,7 @@ const ButtonControl: React.FC = () => {
   const [isDoorOpen, setIsDoorOpen] = useState(false);
 
   useEffect(() => {
-    // Fetch the initial door state
+    // Fetch l'initial door state
     const fetchDoorState = async () => {
       const response = await fetch('/api/door');
       const data = await response.json();

@@ -11,12 +11,12 @@ export async function middleware(request: NextRequest) {
       console.log('Door state:', data);
 
       if (!data.isDoorOpen) {
-        console.log('Door is closed. Redirecting to /home');
-        return NextResponse.redirect(new URL('/home', request.url));
+        console.log('Door is closed. Redirecting to home');
+        return NextResponse.redirect(new URL('/', request.url));
       }
     } catch (error) {
       console.error('Failed to fetch door state:', error);
-      return NextResponse.redirect(new URL('/home', request.url));
+      return NextResponse.redirect(new URL('/', request.url));
     }
   }
 
