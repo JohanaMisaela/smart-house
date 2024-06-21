@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 interface LampProps {
@@ -7,55 +8,29 @@ interface LampProps {
 const Lamp: React.FC<LampProps> = ({ brightness }) => {
   const getLampColor = (brightness: number): string => {
     const brightnessPercentage = brightness / 100;
-    let red, green, blue;
+    let red, green, blue, alpha;
+
     if (brightnessPercentage === 0) {
-      red = 0;
-      green = 0;
+      red = 255;
+      green = 255;
       blue = 0;
-    } else if (brightnessPercentage === 1) {
-      red = 255;
-      green = 255;
-      blue = 255;
+      alpha = 0;
     } else {
-      red = Math.floor(255 * brightnessPercentage);
-      green = Math.floor(255 * brightnessPercentage);
-      blue = Math.floor(255 * brightnessPercentage);
-    }
-    if (brightnessPercentage > 0.5) {
-      const yellowPercentage = (brightnessPercentage - 0.5) * 2;
       red = 255;
       green = 255;
-      blue = Math.floor(255 * (1 - yellowPercentage));
+      blue = 0;
+      alpha = brightnessPercentage;
     }
 
-    return `rgb(${red}, ${green}, ${blue})`;
+    return `rgba(${red}, ${green}, ${blue}, ${alpha})`;
   };
 
+  const lampColor = getLampColor(brightness);
   return (
     <div
-      style={{
-        width: 40,
-        height: 40,
-        borderBottomLeftRadius: 20,
-        borderBottomRightRadius: 20,
-        backgroundColor: getLampColor(brightness),
-        borderRadius: "100%",
-        border: "1px solid black",
-      }}
-      className="flex items-center justify-center"
-    >
-      <div
-        style={{
-          width: 20,
-          height: 20,
-          borderBottomLeftRadius: 20,
-          borderBottomRightRadius: 20,
-          backgroundColor: getLampColor(brightness),
-          border: "1px solid black",
-          borderRadius: "100%",
-        }}
-      ></div>
-    </div>
+      style={{ backgroundColor: lampColor }}
+      className={`w-16 h-16 rounded-full lamp`}
+    ></div>
   );
 };
 

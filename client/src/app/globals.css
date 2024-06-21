@@ -5,6 +5,18 @@
 .parquet {
   background-image: url("../../public/bg/bg.jpeg");
 }
+.floor {
+  background-image: url("../../public/bg/floor.jpg");
+  background-size: cover;
+}
+.bed {
+  background-image: url("../../public/bed1.png");
+  background-size: cover;
+}
+.flower {
+  background-image: url("../../public/chevet.png");
+  background-size: cover;
+}
 .tapis {
   background-image: url("../../public/bg/tapis.jpg");
 }
@@ -17,7 +29,30 @@
   transform-origin: left center;
   transform: translate(-50%, -50%);
 }
-
 .door.open {
   transform: translate(-50%, -50%) scaleX(0.1);
+}
+.sofa {
+  background-image: url("../../public/sofa.png");
+  background-size: cover;
+}
+.fleur {
+  background-image: url("../../public/flower.png");
+  background-size: cover;
+}
+.lamp {
+  background-image: url("../../public/lamp.png");
+  background-size: contain;
+}
+.Workspace {
+  background-image: url("../../public/bureau.png");
+  background-size: cover;
+}
+.closet {
+  background-image: url("../../public/closet.png");
+  background-size: cover;
+}
+.table {
+  background-image: url("../../public/table.png");
+  background-size: cover;
 }

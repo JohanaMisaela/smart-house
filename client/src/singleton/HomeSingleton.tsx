@@ -1,5 +1,3 @@
-// src/patterns/HomeManager.ts
-
 class HomeManager {
   private static instance: HomeManager | null = null;
   private subscribers: (() => void)[] = [];
@@ -19,11 +17,13 @@ class HomeManager {
   }
 
   public unsubscribe(callback: () => void): void {
-    this.subscribers = this.subscribers.filter(subscriber => subscriber !== callback);
+    this.subscribers = this.subscribers.filter(
+      (subscriber) => subscriber !== callback
+    );
   }
 
   public notify(): void {
-    this.subscribers.forEach(callback => callback());
+    this.subscribers.forEach((callback) => callback());
   }
 
   public setDoorState(isOpen: boolean): void {

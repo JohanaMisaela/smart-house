@@ -8,11 +8,9 @@ const Door: React.FC<DoorProps> = ({ isOpen }) => {
   return (
     <div
       style={{
-        width: isOpen ? 20 : 95,
-        height: isOpen ? 80 : 20,
-        backgroundColor: "gray",
-        border: "1px solid #000",
-        borderRadius: "5px",
+        width: isOpen ? 10 : 135,
+        height: isOpen ? 100 : 10,
+        backgroundColor: "#475569",
         transition: "background-color 0.3s ease",
       }}
     ></div>
