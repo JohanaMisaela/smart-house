@@ -46,8 +46,9 @@ const Control = () => {
         {isOpen ? "Fermer la Porte" : "Ouvrir la Porte"}
       </button>
 
-      <div><p>C'est ici pour ouvrir le porte General</p>
-        <ButtonControl/>
+      <div>
+        <p>C'est ici pour ouvrir le porte General</p>
+        <ButtonControl />
       </div>
     </>
   );

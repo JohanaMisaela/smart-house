@@ -40,6 +40,10 @@
   background-image: url("../../public/flower.png");
   background-size: cover;
 }
+.grass {
+  background-image: url("../../public/bg//grass.jpg");
+  background-size: contain;
+}
 .lamp {
   background-image: url("../../public/lamp.png");
   background-size: contain;

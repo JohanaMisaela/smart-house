@@ -1,5 +1,3 @@
-// src/commands/SetBrightnessCommand.ts
-
 import LightController from "@/controllers/Light.Controller";
 
 class SetBrightnessCommand {
