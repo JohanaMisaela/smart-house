@@ -25,7 +25,7 @@ export const useLightContext = () => {
 };
 
 interface LightProviderProps {
-  children: ReactNode; // Assurez-vous que ReactNode est bien importé depuis 'react'
+  children: ReactNode; 
 }
 
 export const LightProvider: React.FC<LightProviderProps> = ({ children }) => {
