@@ -2,8 +2,8 @@
 
 Bienvenue dans le système de contrôle de la maison intelligente ! Ce projet vous permet de contrôler les différentes fonctionnalités d'une maison, telles que l'éclairage et les portes.
 ## Installation
-1. **telecharger le fichier** :
-   - Téléchargez le fichier
+1. **telecharger le dossier** :
+   - Téléchargez le dossier
    - Puis installer les dépendances avec le commande " npm install "
    - et "npm run dev" pour le lancer  
 
