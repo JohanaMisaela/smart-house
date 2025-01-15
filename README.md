@@ -18,11 +18,11 @@ Bienvenue dans le système de contrôle de la maison intelligente ! Ce projet vo
 
 Ce projet a été réalisé par le groupe :
 Niveau : 
-L3 IDEV
+- L3 IDEV
 Membres : 
-RANDRIAMBOLOLOMANANA Finoana Sambatra
-TAHIANAHARISON Joanna Misaela
-RANARISON Tolotra
+- RANDRIAMBOLOLOMANANA Finoana Sambatra
+- TAHIANAHARISON Joanna Misaela
+- RANARISON Tolotra
 
 #Technologies
 Ce projet a été dévellopé en utilisant les technologies " NEXTJS "
