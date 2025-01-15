@@ -1,41 +1,34 @@
-# SmartHouse
+# Smart House Control System
 
-SmartHouse est un projet innovant visant à révolutionner la gestion de votre maison intelligente. Ce projet offre des fonctionnalités avancées pour automatiser et contrôler divers appareils électroniques et systèmes de votre domicile, améliorant ainsi votre confort et votre sécurité.
-
-## Prérequis
-
-Avant de commencer, assurez-vous d'avoir installé les éléments suivants sur votre machine :
-
-- **Node.js** (version recommandée : 16.x ou supérieure)
-- **npm** (généralement inclus avec Node.js)
+Bienvenue dans le système de contrôle de la maison intelligente ! Ce projet vous permet de contrôler les différentes fonctionnalités d'une maison, telles que l'éclairage et les portes.
 
 ## Installation
 
-Clonez le dépôt dans votre répertoire local :
-git clone <URL_DU_DEPOT>
+1. **telecharger le dossier** :
+   - Téléchargez le dossier
+   - Puis installer les dépendances avec le commande " npm install "
+   - et "npm run dev" pour le lancer
 
-Accédez au répertoire du projet :
+## Instructions d'utilisation
 
-cd smarthouse
+- Pour accéder à l'interface de **la chambre**, ouvrez votre navigateur et allez à l'adresse suivante :  
+  `http://localhost:3000`
 
-Installez les dépendances :
+- Pour accéder à l'interface de **contrôle général**, ouvrez un nouveau navigateur et allez à l'adresse suivante :  
+  `http://localhost:3000/control`
 
-npm install
+- Le code pour ouvrir la porte principal est 1234
+  ![alt text](image.png)
 
-## Démarrage
+## Auteurs
 
-Pour démarrer l'application en mode développement, exécutez la commande suivante :
+Ce projet a été réalisé par le groupe :
+Niveau : L3 IDEV
+Membres :
 
-npm run dev
+- RANDRIAMBOLOLOMANANA Finoana Sambatra
+- TAHIANAHARISON Joanna Misaela
+- RANARISON Tolotra
 
-L'application sera accessible à l'adresse suivante : http://localhost:3000
-
-## Contributeurs
-
-**Joanna Misaela**
-
-**Ransion Tolotra**
-
-**Niriantsoa Finoana Samabtra**
-
-Nous espérons que ce projet vous plaira et vous invitons à contribuer ou à nous faire part de vos retours pour améliorer encore SmartHouse.
+#Technologies
+Ce projet a été dévellopé en utilisant les technologies " NEXTJS "
