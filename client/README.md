@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SmartHouse
 
-## Getting Started
+SmartHouse est un projet innovant visant à révolutionner la gestion de votre maison intelligente. Ce projet offre des fonctionnalités avancées pour automatiser et contrôler divers appareils électroniques et systèmes de votre domicile, améliorant ainsi votre confort et votre sécurité.
 
-First, run the development server:
+## Prérequis
 
-```bash
+Avant de commencer, assurez-vous d'avoir installé les éléments suivants sur votre machine :
+
+- **Node.js** (version recommandée : 16.x ou supérieure)
+- **npm** (généralement inclus avec Node.js)
+
+## Installation
+
+Clonez le dépôt dans votre répertoire local :
+git clone <URL_DU_DEPOT>
+
+Accédez au répertoire du projet :
+
+cd smarthouse
+
+Installez les dépendances :
+
+npm install
+
+## Démarrage
+
+Pour démarrer l'application en mode développement, exécutez la commande suivante :
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+L'application sera accessible à l'adresse suivante : http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contributeurs
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**Joanna Misaela**
 
-## Learn More
+**Ransion Tolotra**
 
-To learn more about Next.js, take a look at the following resources:
+**Niriantsoa Finoana Samabtra**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Nous espérons que ce projet vous plaira et vous invitons à contribuer ou à nous faire part de vos retours pour améliorer encore SmartHouse.
